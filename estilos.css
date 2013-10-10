@@ -1,0 +1,106 @@
+body
+{
+	background: #EFEFEF;
+	color: #4C4C4C;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 16px;
+	margin: 0;
+
+}
+header 
+{
+	
+	color: #EFEFEF;
+	display: inline-block;
+	height: 85px;
+	margin: 0;
+	padding: 0.5rem;
+	vertical-align: top;
+}
+header a
+{
+	text-decoration: none;
+	color: #4C4C4C;
+}
+header h1
+{
+	color: #EFEFEF;
+	font-size: 20px;
+	font-weight: normal;
+}
+nav
+{
+	float: right;
+	font-size: 0.9em;
+	margin-right: 10em;
+	margin-top: 5em;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0 ;
+	padding: 0;
+}
+nav ul li
+{
+	display: inline-block;
+	margin: 0 1.2em 0 0;
+	vertical-align: top;
+}
+nav ul li a
+{
+	color: #666;
+	display: block;
+	font-size: 1em;
+	margin: 0 0 0 2em;
+	padding: 0.5em 0;
+	text-decoration: none;
+}
+nav ul li a:hover
+{
+	color:#000000;
+	font-size: 1.05em;
+}
+footer
+{
+
+	padding: 1em 0;
+	color: #666;
+}
+footer p
+{
+	display: block;
+	text-align: center;
+}
+#contenido
+{
+	margin: 1em 1em 1em 1em;
+	height: 500px;
+}
+#contenido .imagen
+{
+
+	text-align: center;
+}
+#portfolio
+{
+	
+	height: 500px;
+	margin: 1em 17.5em 1em 17.5em;	
+}
+#portfolio ul li
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 1em;
+}
+
+#titulo_header
+{
+	color: #000000;
+	margin: 1em 1em 1em 10em;
+}
+#titulo_header span
+{
+	color: #FFF;
+}
