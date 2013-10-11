@@ -5,7 +5,7 @@ body
 	font-family: 'News Cycle', sans-serif;
 	font-size: 16px;
 	margin: 0;
-
+ 	text-align: center; 
 }
 header 
 {
@@ -59,13 +59,11 @@ nav ul li a
 nav ul li a:hover
 {
 	color:#000000;
-	font-size: 1.05em;
 }
 footer
 {
-
-	padding: 1em 0;
 	color: #666;
+	padding: 1em 0;
 }
 footer p
 {
@@ -74,27 +72,30 @@ footer p
 }
 #contenido
 {
-	margin: 1em 1em 1em 1em;
-	height: 500px;
+	border: 1px solid black;
+	height: 509px;
+	margin: auto ;
+	width: 1000px;
 }
-#contenido .imagen
-{
 
-	text-align: center;
-}
 #portfolio
 {
-	
-	height: 500px;
-	margin: 1em 17.5em 1em 17.5em;	
+	border: 1px solid black;
+	height: 509px;
+	margin: auto;
+	width: 1000px;
 }
 #portfolio ul li
 {
 	display: inline-block;
 	vertical-align: top;
-	margin: 1em;
+	margin: 0.7em;
 }
-
+#portfolio p
+{
+	margin: 0;
+	font-size: 1em;
+}
 #titulo_header
 {
 	color: #000000;
