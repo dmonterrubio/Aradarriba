@@ -85,16 +85,14 @@ footer p
 	margin: auto;
 	width: 1000px;
 }
-#portfolio ul li
+#portfolio .imagenes
 {
+	border: 1px solid black;
 	display: inline-block;
+	height: 160px;
+	padding: 1em;
 	vertical-align: top;
-	margin: 0.7em;
-}
-#portfolio p
-{
-	margin: 0;
-	font-size: 1em;
+	width: 160px;
 }
 #titulo_header
 {
