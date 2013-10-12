@@ -1,0 +1,77 @@
+/*el figure hace automatico los saltos de linea es decir q se ubiquen uno al lado del otro*/
+a
+{
+	text-decoration: none;
+	color: white;
+}
+body
+{
+	color: white;
+	font-family: "News Cycle", Arial;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 90%;
+}
+
+header, footer
+{
+	background: #4C4C4C;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+header hgroup h1 
+{
+	color: white; 
+	display: inline-block;
+	margin: 0;
+	vertical-align: top;
+}
+hgroup, nav
+{
+	display: inline-block;
+	margin: 0
+}
+hgroup h1, hgroup #logo
+{
+	display: inline-block;
+}
+nav
+{
+	background: #878787;
+	color: white;
+	font-size: 0.9em;
+	float: right;
+	padding: 1em;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li
+{
+	display: inline-block;
+	padding: 0 0 0 1.2em;
+	vertical-align: top; 
+}
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: 0.5em 0;
+}
+#logo
+{
+	margin-top: 0.8em;
+	width: 49px
+}
+#portafolio
+{
+	margin-top: 0.2em;
+}
