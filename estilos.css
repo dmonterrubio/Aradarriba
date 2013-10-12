@@ -83,15 +83,19 @@ footer p
 	border: 1px solid black;
 	height: 509px;
 	margin: auto;
+	position: relative;
 	width: 1000px;
+}
+#bloque_uno
+{
+	display: inline-block;
+	vertical-align: top;
 }
 #portfolio .imagenes
 {
 	border: 1px solid black;
-	display: inline-block;
 	height: 160px;
 	padding: 1em;
-	vertical-align: top;
 	width: 160px;
 }
 #titulo_header
